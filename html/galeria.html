@@ -16,16 +16,17 @@
     />
 
     <link rel="stylesheet" href="../css/estilo.css" type="text/css" />
+    <script type="text/javascript" defer src="../javascript/acao.js"></script>
   </head>
   <body>
     <header>
-      <a id="logomarca" href="index.html" target="_self">
+      <a id="logomarca" href="../index.html" target="_self">
         <img src="../img/logo.png" alt="logomarca" />
       </a>
 
       <nav>
         <ul>
-          <a href="index.html" target="_self">
+          <a href="../index.html" target="_self">
             <li id="inicio">INÍCIO</li>
           </a>
 
@@ -34,7 +35,7 @@
           </a>
 
           <a href="galeria.html" target="_self">
-            <li id="galeria">GALERIA</li>
+            <li>GALERIA</li>
           </a>
 
           <a href="https://pamoveis.bagypro.com/" target="_blank">
@@ -44,19 +45,44 @@
       </nav>
     </header>
 
+    <main>
+      <h2>Conheça um pouco mais de nossos trabalhos</h2>
+      <h3>Galeria Padrão A</h3>
+      <section id="galeria">
+        <img class="imgGaleria" src="../img/galeria1.jpg" alt="" />
+        <img class="imgGaleria" src="../img/galeria2.jpg" alt="" />
+        <img class="imgGaleria" src="../img/galeria3.jpg" alt="" />
+        <img class="imgGaleria" src="../img/galeria4.jpg" alt="" />
+        <img class="imgGaleria" src="../img/galeria5.jpg" alt="" />
+        <img class="imgGaleria" src="../img/galeria6.jpg" alt="" />
+        <img class="imgGaleria" src="../img/galeria7.jpg" alt="" />
+        <img class="imgGaleria" src="../img/galeria8.jpg" alt="" />
+      </section>
+    </main>
+
     <footer>
       <section id="logosContato">
         <h4>Contatos</h4>
 
-        <img src="../img/whatsapp.png" alt="logoWhatsapp" />
-        <img src="../img/instagram.png" alt="logoInstagram" />
-        <img id="logoemail" src="../img/email.png" alt="logoEmail" />
-      </section>
+        <article>
+          <a
+            href="https://api.whatsapp.com/send?phone=5551996039665&text=Padr%C3%A3o%20A%20M%C3%B3veis%20Sob%20Medida"
+          >
+            <img src="../img/whatsapp.png" alt="logoWhatsapp" />
+            <p class="linksContato">+55 (51) 9641-6042</p>
+          </a>
+        </article>
 
-      <section id="dadosContato">
-        <p>+55 (51) 9641-6042</p>
-        <p>@padraoamoveis</p>
-        <p>contato@padraoa.com</p>
+        <article>
+          <a href="https://www.instagram.com/padraoamoveis/">
+            <img src="../img/instagram.png" alt="logoInstagram" />
+            <p>@padraoamoveis</p>
+          </a>
+        </article>
+        <article>
+          <img id="logoemail" src="../img/email.png" alt="logoEmail" />
+          <p>contato@padraoa.com</p>
+        </article>
       </section>
 
       <section id="endereco">

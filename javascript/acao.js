@@ -1,11 +1,9 @@
 var carrosel;
 var fotos;
 var indice;
-var temporizador;
 
 const botaoAvanca = document.getElementById("avanca");
 const botaoVolta = document.getElementById("volta");
-const tempoIntervalo = 3000;
 
 indice = 0;
 
